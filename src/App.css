@@ -98,6 +98,10 @@
   padding-left: calc(var(--bs-gutter-x) * 0.5);
   margin-top: var(--bs-gutter-y);
 }
+li {
+  float: left;
+}
+
 
 .Btn-style {
   width: 150px;
@@ -114,8 +118,14 @@
 }
 
 li > a {
-  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  padding-left: 50px;
   text-align: center;
+  padding-left: 10px;
+  /* background-color: #dddddd;
+  text-decoration: none;
+   */
 }
 
 li > a:hover {
